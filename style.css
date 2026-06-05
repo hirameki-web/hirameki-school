@@ -257,20 +257,48 @@ font-size:36px;
   padding:80px 20px;
 }
 
-.teacher-card,
-.voice-card{
-  max-width:700px;
-  margin:0 auto;
+/* 講師紹介 */
+.teacher-card{
+  max-width:1000px;
+  margin:auto;
+  display:flex;
+  gap:40px;
+  align-items:center;
   background:#fff;
-  border-radius:20px;
-  padding:30px;
-  box-shadow:0 4px 20px rgba(0,0,0,.08);
+  padding:40px;
+  border-radius:28px;
+  box-shadow:var(--shadow);
 }
+
 .teacher-photo{
-  width:180px;
-  height:180px;
+  width:280px;
+  height:280px;
   object-fit:cover;
-  border-radius:50%;
-  display:block;
-  margin:0 auto;
+  border-radius:20px;
+}
+
+.teacher-text{
+  flex:1;
+}
+
+.teacher-text h3{
+  font-size:2rem;
+  margin-bottom:20px;
+}
+
+.teacher-text p{
+  margin-bottom:15px;
+  color:var(--text-sub);
+}
+
+@media(max-width:768px){
+  .teacher-card{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .teacher-photo{
+    width:220px;
+    height:220px;
+  }
 }
