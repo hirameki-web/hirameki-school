@@ -270,7 +270,7 @@ font-size:36px;
   box-shadow:var(--shadow);
 }
 
-.teacher-photo{
+.photo.jpg{
   width:180px;
   height:180px;
   object-fit:cover;
@@ -299,7 +299,7 @@ font-size:36px;
     text-align:center;
   }
 
-  .teacher-photo{
+  .photo.jpg{
     width:220px;
     height:220px;
   }
