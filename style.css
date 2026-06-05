@@ -266,3 +266,11 @@ font-size:36px;
   padding:30px;
   box-shadow:0 4px 20px rgba(0,0,0,.08);
 }
+.teacher-photo{
+  width:180px;
+  height:180px;
+  object-fit:cover;
+  border-radius:50%;
+  display:block;
+  margin:0 auto;
+}
