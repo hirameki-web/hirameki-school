@@ -271,10 +271,12 @@ font-size:36px;
 }
 
 .teacher-photo{
-  width:280px;
-  height:280px;
+  width:180px;
+  height:180px;
   object-fit:cover;
-  border-radius:20px;
+  border-radius:50%;
+  display:block;
+  margin:0 auto;
 }
 
 .teacher-text{
